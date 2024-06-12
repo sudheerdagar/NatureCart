@@ -59,7 +59,7 @@ jobs:
           application_name: nature_cart
           environment_name: Naturecart-env
           version_label: "ver-${{ github.sha }}"
-          region: eu-central-1
+          region: ap-south-1
           deployment_package: deploy.zip
 
       
